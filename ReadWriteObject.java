@@ -29,7 +29,7 @@ public class ReadWriteObject {
     try {
       Student s1 = new Student("Ushran", 141, "ECE");
       Student s2 = new Student("Aman", 224, "CSE");
-      Student s3 = new Student("Riya", 133, "ECE");
+      Student s3 = new Student("Mohit", 245, "CSE");
       // Create output stream for intFile file
       dos = new ObjectOutputStream(new FileOutputStream(objFile));
       dos.writeObject(s1);
